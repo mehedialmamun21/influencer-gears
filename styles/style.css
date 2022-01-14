@@ -52,12 +52,21 @@ influencer-journey styles
          items styles 
    -----------------------*/
 
+.container{
+    padding-bottom: 40px;
+}
 .section-title{
     text-align: center;
     margin-bottom: 50px;
 }
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+}
 .item{
     width: 300px;
+    height: 550px;
     padding: 15px;
     box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000002c;
     border-radius: 10px; 
@@ -76,4 +85,14 @@ influencer-journey styles
 .item-desc{
     width: 310px;
     color: #1d1919e5;
+}
+.see-more a{
+    text-decoration: none;
+    color: #0c7a88b6;
+    font-weight: 700;
+}
+.see-more {
+    color: #0c7a88b6;
+    padding-top: 45px;
+    padding-left: 985px;
 }
