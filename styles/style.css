@@ -16,7 +16,7 @@ header h2{
 }
 
 /* -------------------------------
-     influencer-journey styles 
+     Influencer-Section styles 
 -------------------------------- */
 
 .influencer{
@@ -59,7 +59,7 @@ header h2{
 }
 
 /* ----------------------------------
-         Container-Section styles 
+      Container-Section styles 
    --------------------------------*/
 
 .container{
@@ -125,9 +125,9 @@ header h2{
     font-weight: 700;
 }
 
-/* ---------------------------
-         footer styles 
-----------------------------*/
+/* ---------------------------------
+         Footer-Section styles 
+-----------------------------------*/
 
 footer{
     height: 250px;
@@ -150,4 +150,49 @@ footer p{
     padding-right: 15px;
     margin-top: 30px;
     color:#f0fff0e1;
+}
+
+/* -------------------------
+       Media Queries 
+--------------------------- */
+
+@media only screen and (max-width:688px) {
+    header h2{
+        margin: 0;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+    .influencer-detail{
+        padding-left: 20px;
+    }
+    .influencer-detail-text h1{
+        margin: 0;
+    }
+    .influencer{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .influencer-view{
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    }
+    .container{
+        margin-left: 0;
+    }
+    .items{
+        margin: 0;
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: left;
+    }
+    .item{
+        margin: 0;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+    }
 }
