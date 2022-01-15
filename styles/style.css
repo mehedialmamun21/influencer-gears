@@ -39,8 +39,8 @@ header h2{
     padding-left: 50px;
 }
 .influencer-view:hover img{
-    transform: scale(1.2);
-    transition: transform 1s ease-in-out;
+    transform: scale(1.2) rotate(-12deg);
+    transition: transform 1s ease;
 }
 .preebook-button{
     color: #FFFFFF;
@@ -155,6 +155,8 @@ footer p{
        Media Queries 
 --------------------------- */
 
+ /* Mobile Devices */
+
 @media only screen and (max-width:688px) {
     header h2{
         margin: 0;
@@ -187,6 +189,9 @@ footer p{
         justify-content: left;
     }
 }
+
+/* tablet-devices */
+
 @media only screen and (min-width:689px) and (max-width:992px) {
 
     header h2{
@@ -202,7 +207,7 @@ footer p{
     }
     .influencer-detail{
         width: 40%;
-        padding-right: 0;
+        padding-right: 10px;
     }
     .influencer-view{
         width: 40%;
