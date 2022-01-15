@@ -15,22 +15,23 @@ header h2{
     margin-top: 90px;
 }
 
-/* ---------------------------
-influencer-journey styles 
-----------------------------*/
+/* -------------------------------
+     influencer-journey styles 
+-------------------------------- */
 
-.influencer-journey{
+.influencer{
+    width: 80%;
     display: flex;
     margin-left: 150px;
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .influencer-detail{
     width: 50%;
     padding-right: 50px;
 }
 .influencer-detail-text h1{
-    font-size: 45px;
+    font-size: 50px;
     color: #1d1919e5;
 }
 .influencer-view{
@@ -43,10 +44,11 @@ influencer-journey styles
 }
 .preebook-button{
     color: #FFFFFF;
-    background-color: #0c7a88b6;
+    background-color: #0c7988f6;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px 15px;
+    margin-top: 30px;
 }
 .preebook-button a{
     text-decoration: none;
@@ -56,56 +58,71 @@ influencer-journey styles
     padding-left: 10px;
 }
 
-/* -------------------------
-         items styles 
-   -----------------------*/
+/* ----------------------------------
+         Container-Section styles 
+   --------------------------------*/
 
 .container{
+    width: 75%;
     padding-bottom: 100px;
-    margin-left: 150px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
 }
 .section-title{
     color: #1d1919e5;
-    padding-left: 470px;
-    margin-bottom: 50px;
-    font-size: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 50px;
 }
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 40px;
+    grid-row-gap: 60px;
 }
 .item{
     width: 300px;
-    height: 550px;
+    height: 500px;
     padding: 15px;
     box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000002c;
     border-radius: 10px; 
 }
+.item-detail h2{
+    color: #000000cc;
+}
 .item-detail .price{
     font-size: 25px;
     color: #1d1919e5;
+    margin-top: 0;
 }
 .item-info .star .fa-star{
     color: #f8b703;
+
 }
 .item-info .star span{
     padding-left: 10px;
-    color: #1d1919e5;
+    color: #221e1e93;
+    font-weight: 700;
 }
 .item-desc{
     width: 310px;
-    color: #1d1919e5;
+    color: #221e1e93;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .see-more a{
     text-decoration: none;
-    color: #0c7a88b6;
-    font-weight: 700;
+    color: #0c7988f6;
+    padding-right: 8px;
 }
 .see-more {
-    color: #0c7a88b6;
-    padding-top: 45px;
-    padding-left: 1143px;
+    color: #0c7988f6;
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 48px;
+    font-weight: 700;
 }
 
 /* ---------------------------
@@ -120,14 +137,13 @@ footer{
     align-items: center;
 }
 footer h2{
-    margin-bottom: 0;
     margin-top: 50px;
     color: #f0fff0e1;
 }
 footer p{
     margin-top: 0;
     margin-bottom: 0;
-    color: #f5deb373;
+    color: #f5deb3b9;
 }
 .footer-icon i{
     font-size: 25px;
