@@ -98,7 +98,6 @@ header h2{
 }
 .item-info .star .fa-star{
     color: #f8b703;
-
 }
 .item-info .star span{
     padding-left: 10px;
@@ -221,5 +220,4 @@ footer p{
         grid-column-gap: 40px;
         grid-row-gap: 40px;
     }
-
 }
